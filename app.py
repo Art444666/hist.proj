@@ -8,7 +8,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 @app.route('/')
 def index():
     # Отдаем history.html прямо из корня папки
-    return send_from_directory(BASE_DIR, 'bellit.html')
+    return send_from_directory(BASE_DIR, 'history.html')
 
 if __name__ == '__main__':
     # host='0.0.0.0' открывает доступ всем в твоей Wi-Fi сети
